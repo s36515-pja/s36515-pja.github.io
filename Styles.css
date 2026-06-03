@@ -15,6 +15,12 @@
 .main_content_container {
     display: grid;
     grid-template-columns: 20% auto 20%;
+    font-size:80%;
+    margin-bottom: 50px;
+}
+
+.button_layout {
+    display: flex;
 }
 
 .footer {
@@ -35,6 +41,6 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 45%;
+    width: 60%;
 
 }
