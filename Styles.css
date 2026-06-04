@@ -19,8 +19,22 @@
     margin-bottom: 50px;
 }
 
+.main_content_container_2 {
+    display: grid;
+    grid-template-columns:25% auto 25%;
+    font-size:100%;
+    margin-bottom: 50px;
+}
+
+.two_columns {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    }
+
 .button_layout {
-    display: flex;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    
 }
 
 .footer {
